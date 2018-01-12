@@ -5,6 +5,7 @@
     body {
       font: 30px/1.5 Arial;
       text-align: center;
+      margin-top: 30px;  
     }
     .ct >li {
       display: inline-block;
