@@ -1,1 +1,61 @@
+body {
+  font: 16px/1.4 Arial;
+  background-color: #fff2e3;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  color: #87968e;
+  margin-top: 30px;
+}
+.desc {
+  margin-top: 30px;
+  color: #87968e;
+  font-size: 14px;
+}
+.myPro>.pro,.extra>.oth {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.myPro>.pro>li,.extra>.oth>li {
+  display: inline-block;
+  background-color: #72b890;
+  margin: 0 4px;
+  padding: 4px 10px;
+  border-radius: 3px;
+}
+.myPro>.pro>li a,.extra>.oth>li>a {
+  color: #fff;
+}
+.myPro>.pro>li:hover {
+  opacity: 0.7;
+}
+.myPro>.pro>li:active {
+  opacity: 1;
+}
+.extra>.oth>li:hover {
+  opacity: 0.7;
+}
+.extra>.oth>li:active {
+  opacity: 1;
+}
+.pre {
+  border: 1px solid black;
+  background-image: url(https://i.loli.net/2018/01/13/5a5a0f307d5cd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+.author,.ft a {
+  color: #87968e;
+}
 
