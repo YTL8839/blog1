@@ -1,1 +1,88 @@
 
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 600px;
+  margin: 0 auto;
+}
+.main p {
+  margin-top: 15px;
+}
+.main .box {
+  margin-top: 30px;
+  border-radius: 3px;
+  padding: 15px;
+}
+.box::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.close::before {
+  content: 'X';
+  float: right;
+}
+.close {
+  cursor: pointer;
+}
+.congratulation {
+  background: #4caf50;
+  color: #fff;
+}
+.notice {
+  background: #2196f3;
+  color: #fff;
+}
+.gosh {
+  background: #f44336;
+  color: #fff;
+}
+.warning {
+  background: #ff9800;
+  color: #fff;
+}
+nav {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: inline-block;
+}
+nav a:hover {
+  background: #ccc;
+}
+.ct ul {
+  list-style-type: none;
+}
+.ct>ul {
+  background: #f1f1f1;
+  box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.ct>ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.ct>ul>li {
+  float: left;
+  position: relative;
+}
+.ct>ul .child {
+  background: #fff;
+  display: none;
+  min-width: 150px;
+  box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.ct>ul>li:hover .child {
+  display: block;
+}
+
