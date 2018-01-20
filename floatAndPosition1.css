@@ -46,13 +46,14 @@
 nav {
   width: 600px;
   margin: 0 auto;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 nav a {
   text-decoration: none;
   color: #333;
   padding: 10px;
-  display: inline-block;
+  display: block;
 }
 nav a:hover {
   background: #ccc;
